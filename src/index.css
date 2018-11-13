@@ -1,14 +1,149 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html {
+  height: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+body {
+  font: 13px helvetica, arial, freesans, clean, sans-serif;
+  line-height: 1.4em;
+  background-color: #fff;
+  color: #333333;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+header {
+  background-color: #f3f3f3;
+  padding: 0.5px;
+}
+header ul {
+  display: flex;
+  justify-content: space-between;
+}
+li {
+  list-style: none;
+}
+.octos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.octos li {
+  padding: 15px;
+}
+.octopic {
+  list-style: none;
+  width: 424px;
+  height: 424px;
+  border-radius: 3px;
+  display: flex;
+  border: solid #cacaca;
+  background: #fff;
+  text-align: center;
+  overflow: hidden;
+  border-width: 1px;
+  line-height: 0px;
+}
+footer p {
+  margin-left: 15px;
+  display: block;
+  line-height: 25px;
+  color: #000;
+  font-weight: bold;
+  font-size: 13px;
+}
+.navigation {
+  padding: 5px 20px 0 20px;
+  display: flex;
+  line-height: 15px;
+  color: #000;
+  font-weight: bold;
+  font-size: 13px;
+}
+.menu {
+  display: flex;
+}
+.menu li {
+  padding: 5px;
+}
+.image-number {
+  justify-content: left;
+  font-size: 16px;
+  color: #cacaca;
+  font-weight: bold;
+  text-align: right;
+  padding: 16px 0 16px 0;
+  margin: 0 12px;
+}
+.image-footer {
+  display: flex;
+  width: 424px;
+  justify-content: space-between;
+  border-bottom: 1px solid #cacaca;
+}
+.triangle {
+  content: '';
+  height: 0;
+  width: 0;
+  border: 10px solid transparent;
+  border-top-color: #cacaca;
+  float: right;
+  position: relative;
+  right: 27px;
+  top: 0;
+  border-bottom: 0px;
+}
+.right-footer {
+  display: flex;
+  justify-content: right;
+}
+.the {
+  font-size: 16px;
+  color: #cacaca;
+  font-weight: bold;
+  text-align: right;
+  padding: 16px 0;
+  margin: 0 5px;
+}
+.image-name {
+  font-size: 16px;
+  color: #666;
+  font-weight: bold;
+  text-align: right;
+  padding: 16px 0;
+  margin: 0 5px;
+  line-height: ;
+}
+.by {
+  font-size: 16px;
+  color: #cacaca;
+  font-weight: bold;
+  text-align: right;
+  padding: 16px 0;
+  margin: 0 5px;
+}
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-top: 1px solid #cacaca;
+}
+.footernav {
+  display: flex;
+}
+.fa-github {
+  padding: 6px 0px 0px 0px;
+  font-size: 1.5rem;
+  color: #ccc;
+}
+.fa-github:hover {
+  color: rgb(145, 145, 145);
+}
+.copyright p {
+  line-height: 0.5;
+  font: 12px;
+  color: rgb(145, 145, 145);
+}
+.author {
+  padding: 13px 3px 3px 3px;
+  border-radius: 5px;
 }
