@@ -10,6 +10,12 @@ class App extends Component {
       <div>
         <Header />
         <Octos />
+        <Cat
+          address="https://octodex.github.com/images/dinotocat.png"
+          image-number="#132"
+          name="Dinotocat"
+          author="https://github.com/kimestoesta.png"
+        />
         <Footer />
       </div>
     )
